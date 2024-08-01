@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './style';
 
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import { Navbar, Hero, Navbar,Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials,Hero, } from './components';
+
 
 const App = () => (
     <div className='bg-primary w-full overflow-hidden'>
