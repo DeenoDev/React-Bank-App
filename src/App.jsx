@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 
-import { Navbar, Hero, Navbar,Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials,Hero, } from './components';
+import { Navbar, Hero, Billing,CardDeal,Business,Clients,CTA,Stats,Footer,Testimonials } from './components';
 
 
 const App = () => (
