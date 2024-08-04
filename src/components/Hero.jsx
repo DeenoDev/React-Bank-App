@@ -32,8 +32,12 @@ const Hero = () => (
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
       </div>
 
-      <div>
+      <div className=''>
         <img src={robot} alt="billing" className='w-[100%] h-[100%] relative z-[5]' />
+
+
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 blue__gradient'/>
+
       </div>
     </section>
   )
