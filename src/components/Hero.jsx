@@ -36,7 +36,7 @@ const Hero = () => (
         <img src={robot} alt="billing" className='w-[100%] h-[100%] relative z-[5]' />
 
 
-        <div className='absolute z-[0] w-[40%] h-[35%] top-0 blue__gradient'/>
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'/>
 
       </div>
     </section>
