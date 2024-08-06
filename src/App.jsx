@@ -19,7 +19,6 @@ const App = () => (
         </div>
       </div>
 
-      //Stats Business Billing CardDeal Testimonials Clients CTA Footer Sections
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
