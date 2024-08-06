@@ -1,12 +1,12 @@
 import React from 'react';
 import { feedback } from '../constants';
 import styles from '../style';
-import FeedbackCard from '../FeedbackCard';
+import FeedbackCard from '../components';
 
-const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
+const Testimonials = () =>  (
+    <section id='clients' className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+      <div></div>
+    </section>
   )
-}
 
 export default Testimonials
