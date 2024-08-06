@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { card } from '../assets';
 
 const CardDeal = () => {
   return (
