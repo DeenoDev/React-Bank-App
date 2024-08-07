@@ -34,6 +34,13 @@ const Footer = () =>  (
         <p className='font-poppins font-normal text-[18px] leading-[27px] text-white text-center'>
           2024 HooBank. All Rights Reserved.
         </p>
+        <div className='flex flex-row md:mt-0 mt-6'>
+          {socialMedia.map((social, index) => (
+            <img key={social.id} src={social.icon} alt={social.name} />
+
+          ))}
+
+        </div>
 
       </div>
     </section>
