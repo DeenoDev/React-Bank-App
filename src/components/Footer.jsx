@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../style';
 import { logo } from '../assets';
-import { footerLinks } from '../constants';
+import { footerLinks, socialMedia } from '../constants';
 
 const Footer = () => {
   return (
